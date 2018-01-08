@@ -33,7 +33,6 @@ runc: container
 # Build the project
 build:
 	cd ./src ; go build ${LDFLAGS} -o ../bin/${APP}
-	sh -c ./bin/${APP}
 
 # Run the project
 run:
